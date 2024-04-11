@@ -4,7 +4,7 @@ param(
 )
 
 $appGroups = @{
-	"sapphire" = @(
+	sapphire = @(
 		"7zip.7zip", # Utilities
 		"ShareX.ShareX",
 		"QL-Win.QuickLook",
@@ -33,7 +33,7 @@ $appGroups = @{
 		"PrismLauncher.PrismLauncher",
 		"EpicGames.EpicGamesLauncher"
 	),
-	"quartz" = @(
+	quartz = @(
 		"7zip.7zip", # Utilities
 		"ShareX.ShareX",
 		"QL-Win.QuickLook",
