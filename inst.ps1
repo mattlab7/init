@@ -31,7 +31,7 @@ $appGroups = @{
 		"Telegram.TelegramDesktop",
 		"Valve.Steam", # Gaming
 		"PrismLauncher.PrismLauncher",
-		"EpicGames.EpicGamesLauncher",
+		"EpicGames.EpicGamesLauncher"
 	),
 	"quartz" = @(
 		"7zip.7zip", # Utilities
@@ -53,7 +53,7 @@ $appGroups = @{
 		"JetBrains.IntelliJIDEA.Ultimate",
 		"Microsoft.VisualStudio.2022.Community.Preview",
 		"9NKSQGP7F2NH", #Communication (WhatsApp)
-		"Telegram.TelegramDesktop",
+		"Telegram.TelegramDesktop"
 	)
 }
 
