@@ -1,10 +1,5 @@
-param(
-    [Parameter(Mandatory=$true)]
-    [string]$Hostname
-)
-
 $appGroups = @{
-    sapphire = @(
+    SAPPHIRE = @(
         "7zip.7zip", # utils
         "ShareX.ShareX",
         "QL-Win.QuickLook",
@@ -33,7 +28,7 @@ $appGroups = @{
         "PrismLauncher.PrismLauncher",
         "EpicGames.EpicGamesLauncher"
     )
-    quartz = @(
+    QUARTZ = @(
         "7zip.7zip", # utils
         "ShareX.ShareX",
         "QL-Win.QuickLook",
@@ -57,9 +52,9 @@ $appGroups = @{
     )
 }
 
-if ($appGroups.ContainsKey($Hostname)) {
-    $appsToInstall = $appGroups[$Hostname]
-    Write-Host "Installing apps for $Hostname..."
+if ($appGroups.ContainsKey($env:computername)) {
+    $appsToInstall = $appGroups[$env:computername]
+    Write-Host "Installing apps for $env:computername..."
 
     foreach ($appId in $appsToInstall) {
         Write-Host "Installing $appId"
@@ -67,5 +62,5 @@ if ($appGroups.ContainsKey($Hostname)) {
     }
 }
 else {
-    Write-Error "Invalid hostname provided. Must be 'sapphire' or 'quartz'."
+    Write-Error "Invalid computer name. You might want to check the script before executing."
 }
