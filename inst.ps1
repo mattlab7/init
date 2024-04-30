@@ -1,9 +1,9 @@
 $appGroups = @{
     SAPPHIRE = @(
         "7zip.7zip", # utils
+        "Brave.Brave",
         "ShareX.ShareX",
         "QL-Win.QuickLook",
-        "Google.Chrome.Dev",
         "AgileBits.1Password",
         "Tailscale.Tailscale",
         "AppWork.JDownloader",
