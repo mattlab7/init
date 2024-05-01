@@ -9,6 +9,7 @@ $appGroups = @{
         "AppWork.JDownloader",
         "Soulseek.SoulseekQt",
         "OBSProject.OBSStudio",
+        "TheBrowserCompany.Arc",
         "Tixati.Tixati.Portable",
         "Google.ChromeRemoteDesktop",
         "mpv.net", # media
@@ -32,10 +33,10 @@ $appGroups = @{
         "7zip.7zip", # utils
         "ShareX.ShareX",
         "QL-Win.QuickLook",
-        "Google.Chrome.Dev",
         "AgileBits.1Password",
         "Tailscale.Tailscale",
         "OBSProject.OBSStudio",
+        "TheBrowserCompany.Arc",
         "Google.ChromeRemoteDesktop",
         "mpv.net", # media
         "Gyan.FFmpeg",
